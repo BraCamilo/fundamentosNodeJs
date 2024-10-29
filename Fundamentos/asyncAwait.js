@@ -9,7 +9,7 @@ async function hola(nombre) {
 }
 
         
-function hablar(){
+async function hablar(){
     return new Promise(function(resolve,reject){
         setTimeout(function(){
             console.log('Bla. bla, bla, bla');
