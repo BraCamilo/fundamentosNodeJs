@@ -3,14 +3,14 @@ console.log('Hola mundo');
 
 
 //Contador
-/* console.count('veces')
+console.count('veces')
 console.count('veces')
 console.count('veces')
 console.count('veces')
 console.countReset('veces')
 console.count('veces')
 console.count('veces')
- */
+
 
 //Grupos
 /* console.group('Conversacion');
