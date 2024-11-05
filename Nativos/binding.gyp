@@ -1,8 +1,8 @@
 {
     "targets":[
         {
-            "target_name": "addon";
-            "sources": ["hola.cc"]
+            "target_name": "addon",
+            "sources": [ "hola.cc" ]
         }
     ] 
 }
