@@ -3,13 +3,13 @@ console.log('Hola mundo');
 
 
 //Contador
-console.count('veces')
+/* console.count('veces')
 console.count('veces')
 console.count('veces')
 console.count('veces')
 console.countReset('veces')
 console.count('veces')
-console.count('veces')
+console.count('veces') */
 
 
 //Grupos
@@ -22,7 +22,7 @@ console.log('Adios mundo')
  */
 
 //Table
-/* var tabla = [
+var tabla = [
     {
         a: 1,
         b: 2
@@ -33,4 +33,4 @@ console.log('Adios mundo')
     }
 ]
 
-console.table(tabla) */
+console.table(tabla)
