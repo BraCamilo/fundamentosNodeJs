@@ -35,3 +35,14 @@ while(multi < 10){
 }
 console.log(number);
 
+let resultado = 1;
+for (let contador = 0; contador < 10; contador = contador + 1) {
+resultado = resultado * 2;
+}
+
+let tuNombre;
+
+/* do {
+tuNombre = prompt("Quien eres?");
+} while (!tuNombre);
+console.log(tuNombre); */
