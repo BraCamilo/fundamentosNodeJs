@@ -16,6 +16,22 @@ esperada se escribe después de el, con dos diagonales y una flecha en frente. "
 // → number
 console.log(typeof "Hola"); */
 
-console.log(Math.min(1,5,7));
+/* console.log(Math.min(1,5,7));
 
+
+let number = 0;
+while(number <= 12){
+    console.log(number);
+    number = number + 1;
+    
+} */
+
+//2 elvado a 10
+let number = 1;
+let multi = 0;
+while(multi < 10){
+    number = number * 2;
+    multi = multi + 1;
+}
+console.log(number);
 
