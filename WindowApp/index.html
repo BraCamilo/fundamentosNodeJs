@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+</head>
+<body>
+    <header>
+        <h1>Este es un ejemplo de aplicasion de escritorio</h1>
+    </header>
+    <article>
+        <h2>Se esta haciendo uso de electron, el cual es una libreria para hacer esto</h2>
+        <p>## Función de escritorio con Node
+
+            La intención de crear una aplicasion de escritorio mediante una aplicasión web, es usando la libreria de electron.
+            
+            Al iniciar el desarrollo de una aplicación con Electron, trabajaremos con un nuevo archivo donde configuraremos el entorno básico. Para comenzar, importamos los módulos necesarios:
+            
+            ```jsx
+            javascript
+            Copiar código
+            const { app, BrowserWindow } = require('electron');
+            
+            ```
+            
+            El siguiente paso es configurar la ventana principal de nuestra aplicación. Para esto, necesitamos establecer las dimensiones que tendrá. Crearemos una función que se encargará de crear esta ventana.
+            
+            Dentro de esta función, instanciamos un nuevo objeto `BrowserWindow`, especificando las propiedades de ancho (`width`) y alto (`height`). A continuación, mediante una variable, que en este caso llamaremos `mainWindow`, usaremos el método `.loadFile()` para cargar el archivo principal de nuestra aplicación, como `index.html`.
+            
+            El código podría lucir así:
+            
+            ```jsx
+            javascript
+            Copiar código
+            function createMainWindow() {
+              const mainWindow = new BrowserWindow({
+                width: 800,  // Ancho de la ventana
+                height: 600, // Alto de la ventana
+              });
+            
+              mainWindow.loadFile('index.html'); // Cargamos el archivo principal
+            }
+            
+            ```
+            
+            Ahora haremos uso de un evento construido en la clase `app` de la librería de Electron, para de esta forma indicar que al momento de que la página cargue ahí sí la muestre.
+            
+            javascript: `app.on('ready', createMainWindow);`
+            
+            Para finalizar, vamos a crear el comando que nos va a ayudar a ejecutar el programa y que este abra, mediante un script en el paquete json.
+            
+            como es un Json, la estructora es la siguiente “star”: “electron .(ruta)”</p>
+    </article>
+    
+</body>
+</html>

@@ -3,8 +3,9 @@ const http = require('http')
 /* Crearemos un servidor con tecnologia http, este servidor recibira un requerimiento y una respuesta las
 cuales se daran mediante la funcion de ruter */
 
-http.createServer(ruter).listen(3000);
-function ruter(req, res){
+http.createServer(router).listen(3000);
+
+function router(req, res){
     console.log('nueva peticion');
     console.log(req.url);
     
